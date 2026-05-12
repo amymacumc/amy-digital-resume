@@ -1,0 +1,11 @@
+{
+  "name": "Amy Digital Resume",
+  "short_name": "Amy Resume",
+  "icons": [
+    {"src": "/icon-192.png", "type": "image/png", "sizes": "192x192"},
+    {"src": "/icon-512.png", "type": "image/png", "sizes": "512x512"}
+  ],
+  "theme_color": "#515455",
+  "background_color": "#515455",
+  "display": "standalone"
+}
