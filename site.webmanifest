@@ -1,6 +1,6 @@
 {
-  "name": "react-resume-template",
-  "short_name": "react-resume-template",
+  "name": "Amy Digital Resume",
+  "short_name": "Amy Resume",
   "icons": [
     {"src": "/icon-192.png", "type": "image/png", "sizes": "192x192"},
     {"src": "/icon-512.png", "type": "image/png", "sizes": "512x512"}
