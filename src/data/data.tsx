@@ -25,14 +25,15 @@ import {
 } from './dataDef';
 
 export const personalInfo = {
-  background: 'Biostatistics, Enterprise Systems, Digital Transformation',
-  email: 'your.email@example.com',
-  focus: 'Digital Project Management, Product Delivery, AI-enabled Business Projects',
-  github: 'https://github.com/your-username',
+  background: 'Columbia Biostatistics, Public Health Data Science, Enterprise Digital Transformation',
+  email: 'amyma2024@outlook.com',
+  focus: 'Digital Project Management, Product Delivery, AI Applications, Enterprise Systems',
+  github: 'https://github.com/amymacumc',
   interests: 'Tennis, Astrology & BaZi, Climbing, Baking',
-  linkedIn: 'https://www.linkedin.com/in/your-profile',
+  linkedIn: 'https://www.linkedin.com/in/amy-m-6818b8218/',
   location: 'Shanghai, China',
   name: 'Amy',
+  phone: '+86 198 0215 8850',
   title: 'Digital Project Manager | Product-minded BA | AI & Enterprise Systems',
 };
 
@@ -102,7 +103,7 @@ export const aboutData: About = {
     {Icon: SparklesIcon, label: 'Interests', text: personalInfo.interests},
   ],
   description:
-    'I am a digital project manager with experience across enterprise systems, CRM, digital marketing platforms, AI-enabled campaigns, and marketplace integration. My strength lies in connecting business goals, user needs, system logic, and delivery execution. With a Columbia University biostatistics background and digital transformation experience in an energy company, I bring analytical discipline and practical delivery judgment to projects across healthcare, AI, product design, and enterprise systems. I am strongest where ambiguity needs to become structured execution: project planning, stakeholder communication, requirement clarification, cross-functional coordination, vendor management, product thinking, risk tracking, and issue resolution.',
+    'I am a digital project manager with experience across enterprise systems, CRM, digital marketing platforms, AI-enabled campaigns, and marketplace integration. My strength lies in connecting business goals, user needs, system logic, and delivery execution. With a Columbia University biostatistics and public health data science background, I bring machine learning, statistical modeling, R, Python, SQL, and evidence-based reasoning into product and project work. I am strongest where ambiguity needs to become structured execution: project planning, stakeholder communication, requirement clarification, cross-functional coordination, vendor management, product thinking, risk tracking, and issue resolution.',
   profileImageSrc: profilepic,
 };
 
@@ -118,6 +119,8 @@ export const skills: SkillGroup[] = [
       {name: 'UAT planning'},
       {name: 'Launch readiness'},
       {name: 'Post-launch iteration'},
+      {name: 'Scrum delivery'},
+      {name: 'Backlog refinement'},
     ],
   },
   {
@@ -153,6 +156,8 @@ export const skills: SkillGroup[] = [
       {name: 'Marketplace systems'},
       {name: 'AI image generation'},
       {name: 'AI image recognition'},
+      {name: 'Machine learning concepts'},
+      {name: 'Statistical modeling'},
       {name: 'Data and analytics background'},
     ],
   },
@@ -164,11 +169,25 @@ export const skills: SkillGroup[] = [
       {name: 'Axure'},
       {name: 'MoDao'},
       {name: 'SQL basics'},
+      {name: 'Python'},
+      {name: 'R'},
+      {name: 'MySQL'},
+      {name: 'LaTeX'},
+      {name: 'Unix'},
       {name: 'Power BI concepts'},
       {name: 'GitHub'},
       {name: 'Microsoft Office'},
       {name: 'Notion'},
       {name: 'Obsidian'},
+    ],
+  },
+  {
+    name: 'Certifications & Languages',
+    skills: [
+      {name: 'AWS Certified AI Practitioner (AIF-C01)'},
+      {name: 'Mandarin Chinese - Native'},
+      {name: 'English - TOEFL 103'},
+      {name: 'CET-6 650'},
     ],
   },
 ];
@@ -182,7 +201,8 @@ export const projects: PortfolioItem[] = [
       'Managed testing, issue tracking, and launch preparation',
       'Considered privacy safeguards for user-uploaded images',
     ],
-    impact: 'Supported scalable AI-powered engagement and digital campaign activation.',
+    impact:
+      'Delivered an on-schedule AI campaign launch while balancing generation quality, API reliability, cost, privacy, and China data compliance.',
     problem:
       'The business needed to transform a global campaign idea into a scalable local digital activation with AI-generated visuals and a smooth user journey.',
     role: 'Acted as product/project coordinator, bridging business teams, vendors, technical teams, and campaign stakeholders.',
@@ -195,8 +215,8 @@ export const projects: PortfolioItem[] = [
       'Risk Control',
     ],
     summary:
-      'Localized and delivered an AI-powered digital campaign for Castrol China, turning a global brand concept into an interactive China-market activation.',
-    title: 'Win+ AIGC Truck Hero Campaign',
+      'Productized an AI-generated personalized visual campaign, turning a global marketing idea into a localized digital activation for China.',
+    title: 'AIGC Digital Marketing Campaign',
   },
   {
     actions: [
@@ -206,13 +226,14 @@ export const projects: PortfolioItem[] = [
       'Supported UAT and issue resolution',
       'Helped improve process visibility and digital traceability',
     ],
-    impact: 'Improved sales operation workflows and supported digital enablement across business teams.',
+    impact:
+      'Delivered CRM modules that improved process traceability and contributed over CNY 1.5M in estimated business value.',
     problem:
       'Business teams needed stronger CRM capabilities to support operational workflows and improve digital traceability.',
     role: 'Supported requirement analysis, feature delivery, testing, and stakeholder communication.',
     skills: ['CRM', 'Business Analysis', 'Stakeholder Management', 'UAT', 'Process Optimization', 'System Delivery'],
-    summary: 'Supported CRM enhancements for sales operations, distributor management, and channel activity management.',
-    title: 'Lightning CRM Digital Capabilities',
+    summary: 'Owned CRM business analysis and product support across sales, channel, and customer service workflows.',
+    title: 'Enterprise CRM Product Support',
   },
   {
     actions: [
@@ -235,8 +256,8 @@ export const projects: PortfolioItem[] = [
       'Process Design',
     ],
     summary:
-      'Supported the design of a unified platform connecting multiple suppliers and standardizing product, order, cancellation, after-sales, and integration logic.',
-    title: 'Multi-supplier Shopping Mall / JiaPinHui Integration',
+      'Supported the design of a unified marketplace platform connecting multiple suppliers and standardizing product, order, cancellation, after-sales, and integration logic.',
+    title: 'Multi-supplier Marketplace Integration',
   },
   {
     actions: [
@@ -245,13 +266,20 @@ export const projects: PortfolioItem[] = [
       'Evaluated accuracy, cost, and operational feasibility',
       'Translated model performance into business-facing language',
     ],
-    impact: 'Supported improved recognition capability and potential cost optimization.',
+    impact:
+      'Supported an in-house recognition path that reached approximately 97% accuracy while reducing overall recognition cost by about 50%.',
     problem:
       'The business needed a more accurate and cost-effective image recognition capability for product or bottle-code related scenarios.',
     role: 'Supported AI product/project coordination, model evaluation, and business validation.',
-    skills: ['AI Product Management', 'Model Evaluation', 'Business Validation', 'Technical Translation', 'Stakeholder Communication'],
+    skills: [
+      'AI Product Management',
+      'Model Evaluation',
+      'Business Validation',
+      'Technical Translation',
+      'Stakeholder Communication',
+    ],
     summary:
-      'Supported product/project coordination for an AI image recognition model upgrade, balancing accuracy, cost, and business feasibility.',
+      'Led product/project coordination for an AI image recognition capability upgrade, balancing accuracy, cost, automation value, and business feasibility.',
     title: 'AI Image Recognition Upgrade',
   },
   {
@@ -275,21 +303,40 @@ export const projects: PortfolioItem[] = [
     ],
     summary:
       'Led a hackathon team to design and prototype an AI travel-planning agent focused on personalized and emotionally aware itinerary planning.',
-    title: 'WanderPal AI Travel Agent',
+    title: 'AI Travel Agent Hackathon MVP',
   },
 ];
 
 export const education: TimelineItem[] = [
   {
     content: (
+      <>
+        <p>
+          <strong>Public health data science training:</strong> Built a rigorous foundation in statistical inference,
+          causal inference, machine learning, deep learning, relational databases, and SQL programming.
+        </p>
+        <p>
+          <strong>Applied technical toolkit:</strong> Developed hands-on experience with R, Python, SQL, statistical
+          modeling, data science workflows, and evidence-based analysis.
+        </p>
+      </>
+    ),
+    date: 'September 2022 - May 2024',
+    location: 'Columbia University',
+    skills: ['Machine Learning', 'Statistical Modeling', 'R', 'Python', 'SQL', 'Causal Inference', 'GPA 3.9'],
+    title: 'Master of Science in Biostatistics, Public Health Data Science Track',
+  },
+  {
+    content: (
       <p>
-        Built a quantitative foundation in statistical reasoning, evidence-based analysis, data quality, and structured
-        problem solving.
+        <strong>Scientific and analytical foundation:</strong> Studied bioscience with training in structured research,
+        biological systems, quantitative reasoning, and technical communication.
       </p>
     ),
-    date: 'Graduate study',
-    location: 'Columbia University',
-    title: 'Biostatistics Background',
+    date: 'September 2018 - May 2022',
+    location: 'East China University of Science and Technology',
+    skills: ['Bioscience', 'Research Thinking', 'Data Awareness', 'GPA 3.6'],
+    title: 'Bachelor of Science in Bioscience',
   },
 ];
 
@@ -298,71 +345,105 @@ export const work: TimelineItem[] = [
     content: (
       <>
         <p>
-          Supported digital transformation initiatives for Castrol China across Win+ digital marketing platform,
-          Lightning CRM system, AI-enabled campaigns, and marketplace integration. Worked with business users, IT teams,
-          vendors, and external partners to clarify requirements, coordinate delivery, support testing, manage issues,
-          and drive post-launch improvements.
+          Digital graduate in the Technology department, rotating across product and project management workstreams for
+          enterprise CRM, AI innovation, digital marketing platforms, and marketplace integration.
         </p>
         <ul>
-          <li>Coordinated cross-functional digital projects across business, IT, vendors, and external partners.</li>
-          <li>Translated business needs into structured requirements, user flows, and delivery tasks.</li>
-          <li>Supported project scoping, timeline tracking, UAT coordination, launch readiness, and iteration.</li>
-          <li>Worked on CRM, digital marketing platforms, and multi-supplier marketplace integration.</li>
-          <li>Supported AI-enabled business projects involving AIGC, image recognition, and API integration.</li>
+          <li>
+            <strong>CRM business analysis:</strong> Owned CRM requirements planning and system analysis across sales,
+            channel, and customer service workflows, helping deliver modules with more than CNY 1.5M in estimated
+            business value.
+          </li>
+          <li>
+            <strong>Product design and prioritization:</strong> Wrote PRD/functional specification documents, created
+            user roadmaps and high-fidelity prototypes with Axure and MoDao, and prioritized features based on business
+            ROI.
+          </li>
+          <li>
+            <strong>End-to-end delivery:</strong> Participated in architecture and API design discussions, led UAT
+            execution, collected feedback, and improved system usability and delivery quality.
+          </li>
+          <li>
+            <strong>AI image recognition upgrade:</strong> Led vendor replacement and in-house model evaluation,
+            coordinating business, IT, and algorithm teams to support an EfficientNet-based recognition path with
+            approximately 97% accuracy and around 50% cost reduction.
+          </li>
+          <li>
+            <strong>Automation delivery:</strong> Supported YOLO-based object detection for multi-SKU recognition and
+            shelf compliance scenarios, clarifying business goals, acceptance criteria, and scalable analytics needs.
+          </li>
+          <li>
+            <strong>AIGC productization:</strong> Designed an end-to-end AI marketing workflow from portrait upload to
+            personalized image generation and social sharing, while coordinating model selection, API stability, cost,
+            privacy, and China data compliance.
+          </li>
+          <li>
+            <strong>Agile collaboration:</strong> Built multi-vendor collaboration routines, facilitated backlog
+            refinement, requirement alignment, and risk reviews, and tracked delivery through Azure DevOps and Alibaba
+            Cloud Yunxiao.
+          </li>
         </ul>
       </>
     ),
-    date: 'Recent',
-    location: 'bp Castrol China',
+    date: 'August 2024 - Present',
+    location: 'bp China',
     skills: [
       'Project Management',
+      'Product Management',
       'Business Analysis',
       'Stakeholder Management',
       'Vendor Coordination',
       'UAT',
+      'PRD / FS Writing',
+      'API Design Concepts',
+      'AI Applications',
+      'Scrum',
+      'Azure DevOps',
+      'Alibaba Cloud Yunxiao',
       'System Integration',
-      'Sprint Tracking',
       'Risk Management',
     ],
-    title: 'Digital Graduate / Digital Project Manager',
+    title: 'Digital Graduate, Product / Project Management Rotations',
   },
   {
     content: (
       <>
         <p>
-          Worked in a regulated, evidence-driven environment, applying analytical thinking, statistical reasoning,
-          documentation discipline, and data quality awareness.
+          Supported portfolio management, business development, market research, competitor analysis, policy tracking,
+          and strategic planning in the pharmaceutical industry.
         </p>
         <ul>
-          <li>Supported structured analysis in a regulatory context.</li>
-          <li>Built experience in evidence-based reasoning and documentation.</li>
-          <li>Strengthened analytical rigor and attention to data quality.</li>
+          <li>
+            <strong>Project initiation support:</strong> Researched 10+ potential CNS assets and 20+ pipeline or
+            marketed competitors to support generic drug and licence-in project decisions.
+          </li>
+          <li>
+            <strong>Commercial analysis:</strong> Synthesized clinical guidelines, literature, KOL interviews, and sales
+            data to analyze unmet needs in cardiovascular and metabolic disease areas.
+          </li>
+          <li>
+            <strong>Market sizing:</strong> Supported China market opportunity and pricing range analysis for strategic
+            planning discussions.
+          </li>
+          <li>
+            <strong>Policy tracking:</strong> Interpreted national volume-based procurement policy updates and supported
+            product participation in bidding and implementation processes.
+          </li>
         </ul>
       </>
     ),
-    date: 'Internship',
-    location: 'U.S. FDA',
-    skills: ['Statistical Thinking', 'Documentation', 'Data Quality', 'Regulatory Context', 'Analytical Reasoning'],
-    title: 'Statistician Intern',
-  },
-  {
-    content: (
-      <>
-        <p>
-          Supported market research, competitor analysis, policy tracking, and strategic planning in the healthcare
-          industry.
-        </p>
-        <ul>
-          <li>Conducted market and competitor research across therapeutic areas.</li>
-          <li>Supported commercial analysis and strategic planning.</li>
-          <li>Synthesized policy, market, and product information into structured internal materials.</li>
-        </ul>
-      </>
-    ),
-    date: 'Internship',
-    location: 'Pharmaceutical Industry',
-    skills: ['Market Research', 'Strategic Analysis', 'Healthcare Business', 'Policy Research', 'Cross-functional Communication'],
-    title: 'Strategic Planning & Business Development Intern',
+    date: 'May 2023 - August 2023',
+    location: 'Viatris, Strategic Planning & Business Development',
+    skills: [
+      'Portfolio Management',
+      'Business Development',
+      'Market Research',
+      'Commercial Analysis',
+      'Healthcare Business',
+      'Policy Research',
+      'Strategic Planning',
+    ],
+    title: 'Portfolio Management & Business Development Intern',
   },
 ];
 
@@ -376,9 +457,9 @@ export const communityExperiences: CardItem[] = [
   },
   {
     description:
-      'Supported online public-interest sharing sessions focused on digital health and healthcare knowledge. Helped translate complex health and technology topics into accessible community-facing conversations.',
-    focus: ['Digital Health', 'Public Welfare', 'Community Education', 'Healthcare Communication'],
-    role: 'Volunteer Organizer',
+      'Co-founded a digital health public-interest learning initiative and led the course content team. Designed the course structure, coordinated speakers and materials, and ensured the delivery of three online sessions that translated healthcare and technology topics into accessible community-facing conversations.',
+    focus: ['Co-founder', 'Digital Health', 'Course Design', 'Online Program Delivery', 'Healthcare Communication'],
+    role: 'Co-founder / Course Content Lead',
     title: 'SheShapes Health',
   },
   {
@@ -432,8 +513,7 @@ export const resume: ResumeDownload = {
 };
 
 export const contact: ContactSection = {
-  description:
-    'Open to digital project management, product, AI product, and enterprise transformation opportunities.',
+  description: 'Open to digital project management, product, AI product, and enterprise transformation opportunities.',
   headerText: "Let's connect.",
   items: [
     {
@@ -450,6 +530,11 @@ export const contact: ContactSection = {
       href: personalInfo.github,
       text: personalInfo.github,
       type: ContactType.Github,
+    },
+    {
+      href: `tel:${personalInfo.phone.replaceAll(' ', '')}`,
+      text: personalInfo.phone,
+      type: ContactType.Phone,
     },
     {
       text: personalInfo.location,
