@@ -33,7 +33,6 @@ export const personalInfo = {
   linkedIn: 'https://www.linkedin.com/in/amy-m-6818b8218/',
   location: 'Shanghai, China',
   name: 'Amy',
-  phone: '+86 198 0215 8850',
   title: 'Digital Project Manager | Product-minded BA | AI & Enterprise Systems',
 };
 
@@ -450,17 +449,17 @@ export const work: TimelineItem[] = [
 export const communityExperiences: CardItem[] = [
   {
     description:
-      'Contributed to a women-led knowledge community supporting academic growth, peer learning, and cross-disciplinary dialogue. Helped organize initiatives that create accessible spaces for women to exchange experience, build confidence, and support one another.',
-    focus: ['Women Empowerment', 'Knowledge Sharing', 'Academic Community', 'Event Design'],
-    role: 'Committee Member / Volunteer Organizer',
-    title: 'SheShapes Academia',
-  },
-  {
-    description:
       'Co-founded a digital health public-interest learning initiative and led the course content team. Designed the course structure, coordinated speakers and materials, and ensured the delivery of three online sessions that translated healthcare and technology topics into accessible community-facing conversations.',
     focus: ['Co-founder', 'Digital Health', 'Course Design', 'Online Program Delivery', 'Healthcare Communication'],
     role: 'Co-founder / Course Content Lead',
     title: 'SheShapes Health',
+  },
+  {
+    description:
+      'Contributed to a women-led knowledge community supporting academic growth, peer learning, and cross-disciplinary dialogue. Helped organize initiatives that create accessible spaces for women to exchange experience, build confidence, and support one another.',
+    focus: ['Women Empowerment', 'Knowledge Sharing', 'Academic Community', 'Event Design'],
+    role: 'Committee Member / Volunteer Organizer',
+    title: 'SheShapes Academia',
   },
   {
     description:
@@ -530,11 +529,6 @@ export const contact: ContactSection = {
       href: personalInfo.github,
       text: personalInfo.github,
       type: ContactType.Github,
-    },
-    {
-      href: `tel:${personalInfo.phone.replaceAll(' ', '')}`,
-      text: personalInfo.phone,
-      type: ContactType.Phone,
     },
     {
       text: personalInfo.location,
